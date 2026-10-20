@@ -1,4 +1,4 @@
-# Microsoft Sentinel SOC Investigation Lab
+# Microsoft Sentinel Cloud SIEM Implementation
 
 ### 🔐 Azure Honeypot | Security Monitoring | Threat Hunting | Incident Investigation | Microsoft Sentinel
 
