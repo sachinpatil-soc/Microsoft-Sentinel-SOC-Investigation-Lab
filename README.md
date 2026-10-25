@@ -12,7 +12,7 @@
 
 ![SOC Project](https://img.shields.io/badge/SOC-Tier%201-blue?style=for-the-badge)
 
-This project simulates a real-world Tier 1 Security Operations Center (SOC) investigation by monitoring, analyzing, documenting, and responding to Remote Desktop Protocol (RDP) brute-force attacks using Microsoft Sentinel.
+This project simulates a real-world Enterprise Security Operations Center (SOC) investigation by monitoring, analyzing, documenting, and responding to Remote Desktop Protocol (RDP) brute-force attacks using Microsoft Sentinel.
 
 The objective extends beyond log collection. It follows the complete SOC investigation lifecycle—from security monitoring and alert triage to threat hunting, incident documentation, and playbook-driven response—reflecting workflows commonly used in enterprise Security Operations Centers.
 
@@ -31,7 +31,7 @@ This project demonstrates how Microsoft Sentinel can be used to detect, investig
 
 ## 🛠️ Project Objectives
 
-The primary goal of this project is to simulate the day-to-day operational responsibilities of a Tier 1 SOC Analyst by executing a structured, end-to-end incident investigation workflow:
+The primary goal of this project is to simulate the day-to-day high-pressure operational responsibilities of a SOC Analyst by executing a structured, end-to-end incident investigation workflow:
 
 1. ☁️ Deploy a Windows Honeypot in Microsoft Azure
 2. 📥 Collect real-world attacker telemetry
@@ -39,8 +39,8 @@ The primary goal of this project is to simulate the day-to-day operational respo
 4. 🔍 Investigate brute-force attacks using Kusto Query Language (KQL)
 5. 👹 Identify attacker behavior and attack patterns
 6. 📄 Document the incident investigation
-7. 🛡️ Execute a Tier 1 Incident Response Playbook
-8. 🚨 Demonstrate the Incident Escalation process from Tier 1 to Tier 2
+7. 🛡️ Execute a structured Incident Response Playbook
+8. 🚨 Demonstrate the structured Incident Escalation process to Senior Incident Response (Tier 2)
 9. 📊 Perform proactive threat hunting to identify attacker behaviour and suspicious authentication patterns
 10. ✅ Simulate an enterprise SOC investigation workflow
 
@@ -209,9 +209,10 @@ This project improved my understanding of:
 
 # 🎯 Project Relevance
 
-This project was developed to strengthen the practical skills required for an entry-level Security Operations Center (SOC) Analyst role.
+This project was developed to strengthen the practical skills required for an Enterprise Security Operations Center (SOC) Analyst role.
 
-The investigation workflow reflects common Tier 1 SOC responsibilities, including:
+
+The investigation workflow reflects core SOC operations and SLA-driven alert triage: 
 
 - 🖥️ **Security Monitoring**
 - 🚨 **Alert Triage**
@@ -240,4 +241,10 @@ The scope of the investigation includes:
 * 📝 **Documenting** findings for incident escalation.
 
 
-This project does not perform malware analysis or digital forensics. Its objective is to simulate the responsibilities of a Tier 1 SOC Analyst during the initial stages of incident detection and investigation.
+## ⚖️ Security, Privacy & Compliance Note
+**Disclaimer:** This project was executed within a strictly isolated, synthetically generated Azure environment. 
+*   **Data Privacy:** No actual corporate PII (Personally Identifiable Information), real user credentials, or proprietary enterprise data was used or exposed during this simulation. 
+*   **Containment:** The honeypot infrastructure was intentionally segregated from any production networks or personal environments to prevent lateral movement.
+*   **Purpose:** All documented Indicators of Compromise (IOCs), IP addresses, and attacker behaviors are derived from live, unclassified internet scanning activity directed at the isolated honeypot.
+
+
