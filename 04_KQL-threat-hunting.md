@@ -1,7 +1,7 @@
 
 # 🔍 KQL Threat Hunting Queries
 
-- The following KQL queries simulate common investigations performed by Tier 1 SOC Analysts using Microsoft Sentinel.
+- The following KQL queries simulate common investigations performed by Enterprise SOC Analysts using Microsoft Sentinel.
 
 - These queries focus on authentication monitoring, brute-force detection, suspicious login behavior, and incident triage.
 
@@ -105,7 +105,7 @@ SecurityEvent
 
 ### Analyst Observation
 
-The investigation verified whether any successful authentication events occurred during the monitoring period. Correlating successful logons with previous authentication failures is an important Tier 1 SOC investigation step.
+The investigation verified whether any successful authentication events occurred during the monitoring period. Correlating successful logons with previous authentication failures is an important SOC investigation step.
 
 ---
 ## Query 5 - Top Targeted Computers
@@ -247,7 +247,7 @@ SecurityEvent
 
 ### Analyst Observations
 
-This query correlates source IP addresses with the user accounts they attempted to access. IP addresses targeting multiple accounts may indicate password spraying activity, while repeated attempts against a single account are more consistent with targeted brute-force attacks. This information provides valuable context for Tier 1 analysts when determining attack patterns and escalation requirements.
+This query correlates source IP addresses with the user accounts they attempted to access. IP addresses targeting multiple accounts may indicate password spraying activity, while repeated attempts against a single account are more consistent with targeted brute-force attacks. This information provides valuable context for SOC analysts when determining attack patterns and escalation requirements.
 
 
 
